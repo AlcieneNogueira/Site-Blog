@@ -1,0 +1,46 @@
+footer {
+    display: flex;
+    width: 1190px;
+
+h2 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.info {
+    display: block;
+    margin: 10px;
+    width: 450px;
+    height: 275px;
+}
+
+.container-sociais {
+    display: block;
+    width: 5rem;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+.sociais-1 {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
