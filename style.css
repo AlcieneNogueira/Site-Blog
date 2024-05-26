@@ -1,19 +1,37 @@
+/* footer */
 footer {
     display: flex;
-    width: 1190px;
+    width: 1358px;
+    background-color: #0D0D0D;
 
 h2 {
-    color: black;
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 p {
+    color: gray;
     font-family: Arial, Helvetica, sans-serif;
 }
 }
 
+.outras-info {
+    display: block;
+    width: 100px;
+    margin-left: 100px;
+    padding-top: 50px;
+
+a {
+    color: gray;
+}   
+}
+
+.outras-info li {
+    padding-top: 20px;
+}
+
 footer ul {
     list-style: none;
+    display: flex;
 }
 
 footer a {
@@ -22,15 +40,17 @@ footer a {
 }
 
 .info {
+    
     display: block;
     margin: 10px;
     width: 450px;
-    height: 275px;
+    height: 325px;
 }
 
 .container-sociais {
+    
     display: block;
-    width: 5rem;
+    width: 30rem;
 }
 
 .titulo {
