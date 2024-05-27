@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #0D0D0D;
+    padding: 10px;
+    width: 83rem;
+}
+
+nav h2 {
+    text-align: center;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    font-family: monospace;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+a:hover {
+    color: blue;
+}
+
+.botoes-de-nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 40px;
+}
+
+.container img {
+    width: 84.3rem;
+    height: 27rem;
+}
+
+/*css para o main*/
+
+.container {
+    width: 80rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* divisor entre o main e o footer */
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    width: 1350px;
+}
+
+/* css do footer */
+footer {
+    display: flex;
+    width: 1350px;
+    height: 340px;
+    background-color: #0D0D0D;
+    
+h2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+}
+
+.outras-info {
+    display: block;
+    margin-left: 100px;
+    padding-top: 50px;
+
+a {
+    color: gray;
+}   
+}
+
+.outras-info li {
+    padding-top: 20px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.info {
+    display: block;
+    margin: 10px;
+    width: 450px;
+    height: 325px;
+}
+
+.sociais-1 {
+    display: block;
+    width:25rem;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+.sociais-2 {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
