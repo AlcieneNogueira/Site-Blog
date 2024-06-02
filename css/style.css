@@ -1,13 +1,20 @@
 body {
     margin: 0;
+    height: 100vh;
+    width: 100vw;
 }
 
 /* header ----> navegação*/
 nav {
     background-color: #0D0D0D;
-    padding: 10px;
+    padding: 15px;
     width: 83rem;
 }
+.active{
+    background-color:rgb(116, 120, 210);
+    padding: 10px ;
+}
+
 
 nav h2 {
     text-align: center;
@@ -33,6 +40,8 @@ a:hover {
     display: flex;
     justify-content: space-evenly;
     padding-right: 40px;
+    transition: 1s;
+    font-weight: bold;
 }
 
 /* assunto principal */
@@ -202,4 +211,62 @@ footer a {
     justify-content: space-around;
     width: 400px;
     
+}
+/* pesquisar*/
+.search-box{
+    position:absolute;
+    top:10%;
+    left:10%;
+    transform: translate(-50%, -50%);
+    background:white;
+    height: 50px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+
+
+
+
+}
+
+.search-text{
+    background:none;
+    border:0;
+    outline:0;
+    padding:0;
+
+    font-size: 16pix;
+    width:0;
+    transition:0.4;
+}
+.search-btn{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+.loupe-white{
+    display:none;
+}
+.search-box:hover > .search-text{
+    width: 120px;
+    padding: 20px;
+}
+.search-box:hover >.search-btn{
+    background-color: blue;
+}
+.search-box:hover >.search-btn .loupe-blue{
+    display: none;
+}
+
+.search-box:hover >.search-btn .loupe-white{
+   display: block;  
 }
