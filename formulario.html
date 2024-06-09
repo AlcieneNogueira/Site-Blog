@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/formulario.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="./javascript/script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Crie sua conta</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>ou use o seu e-mail para cadastro</span>
+                <label for="nome"></label>
+                <input type="text" id="nome" name="nome" class="" placeholder="nome">
+                <p id="nome-help" class="help-text">Mensagem de ajuda</p>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" class="" placeholder="email">
+                <p id="email-help" class="help-text">Mensagem de ajuda</p>
+                <input type="password" name="senha" placeholder="senha">
+                <button>Inscreva-se</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Login</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>ou use seu e-mail e senha</span>
+                <input type="email" name="email" placeholder="email">
+                <input type="password" name="senha" placeholder="senha">
+                <button><a href="">Entrar</a></button>
+            </form>
+        </div>
+        <div class="alternar-container">
+            <div class="alternar">
+                <div class="alternar-painel alternar-esquerda">
+                    <h1>Bem-Vindo de Volta!</h1>
+                    <p>Insira seus dados pessoais para utilizar todos os recursos do site</p>
+                    <button class="hidden" id="login">Entrar</button>
+                </div>
+                <div class="alternar-painel alternar-direita">
+                    <h1>Olá, Amigo!</h1>
+                    <P>Registre-se com seus dados pessoas para utilizar todos os recursos do site</P>
+                    <button class="hidden" id="register">Inscreva-se</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
