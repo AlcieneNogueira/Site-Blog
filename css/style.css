@@ -4,7 +4,8 @@ body {
 
 /* header ----> navegação*/
 nav {
-    background-color: #0D0D0D;
+    background: linear-gradient(to right, #5c6bc0, #512da8);
+    
     padding: 10px;
     width: 83rem;
 }
@@ -150,14 +151,14 @@ footer {
     display: flex;
     width: 1350px;
     height: 340px;
-    background-color: #0D0D0D;
+    background: linear-gradient(to right, #5c6bc0, #512da8);
     
 h2 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 p {
-    color: gray;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 }
@@ -168,7 +169,7 @@ p {
     padding-top: 50px;
 
 a {
-    color: gray;
+    color: white;
 }   
 }
 

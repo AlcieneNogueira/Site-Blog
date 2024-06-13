@@ -74,5 +74,4 @@ emailInput.addEventListener("change", (evento) => {
         emailInput.classList.remove("correct")
         emailHelp.innerText = 'o email deve conter @ e .com'
     }
-
-})
+});
